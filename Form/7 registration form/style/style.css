@@ -1,0 +1,65 @@
+body{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+#container{
+    border: 2px solid black;
+}
+.title{
+    margin: auto;
+    padding: 5px;
+    color: chocolate;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+.description{
+    margin: auto;
+    padding: 5px;
+    color: gray;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.description:hover{
+    color: darkgreen;
+    border-radius: 10px;
+}
+.form-control{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     margin: 10px;
+     padding: 5px;
+}
+ input{
+     display: flex;
+     flex-direction: column;
+     padding: 5px;
+     margin: 2px;
+     border: 1px solid darkgreen;
+     border-radius: 5px;
+ }
+ .form-textarea{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   margin-left: 5px;
+ }
+ .form-textarea > label{
+    margin: 10px;
+ }
+ textarea{
+    margin-right: 10px;
+    border: 1px solid darkgreen;
+ }
+ .form-submit{
+    display: flex;
+    justify-content: center;
+     }
+     button{
+        background-color: lightskyblue;
+        border: 2px solid red;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 2px 5px 3px;
+     }
